@@ -10,19 +10,29 @@
   },
   "dependencies": {
     "express": "^4.16.4",
-    "razzle": "^2.4.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0"
   },
   "devDependencies": {
     "@types/express": "^4.16.1",
-    "@types/node": "^11.13.0",
-    "@types/react": "^16.8.12",
-    "@types/react-dom": "^16.8.3",
-    "@types/react-router-dom": "^4.3.1",
-    "razzle-plugin-typescript": "^2.4.1",
-    "tslint": "^5.15.0",
-    "typescript": "^3.4.1"
+    "@types/jest": "^22.2.3",
+    "@types/node": "^11.13.5",
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-router-dom": "^4.3.2",
+    "@types/webpack-env": "^1.13.6",
+    "prettier": "^1.17.0",
+    "razzle": "^3.0.0",
+    "razzle-plugin-typescript": "^3.0.0",
+    "ts-jest": "^22.4.5",
+    "tslint": "^5.16.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.4.3"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 120
   }
 }

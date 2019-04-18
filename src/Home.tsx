@@ -1,7 +1,6 @@
 import React from 'react';
-// @ts-ignore
-import logo from './react.svg';
 import './Home.css';
+import logo from './react.svg';
 
 class Home extends React.Component {
   render() {
@@ -12,8 +11,7 @@ class Home extends React.Component {
           <h2>Welcome to Razzle</h2>
         </div>
         <p className="Home-intro">
-          To get started, edit <code>src/App.js</code> or{' '}
-          <code>src/Home.js</code> and save to reload.
+          To get started, edit <code>src/App.js</code> or <code>src/Home.js</code> and save to reload.
         </p>
         <ul className="Home-resources">
           <li>
